@@ -1,0 +1,3 @@
+Time Complexity
+
+Rate of increase in time with respect to input size
