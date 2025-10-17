@@ -10,7 +10,6 @@ Rules to calculate Time Complexity:
 
 Three Types:
 
-
 1. Big Oh - Worst case (upper bound)
 2. Theta - Average Case 
 3. Omega - Best Case (lower bound)
