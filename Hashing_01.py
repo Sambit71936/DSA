@@ -22,7 +22,7 @@ hash_list = [0]*11
 
 for num in n:
     hash_list[num]+=1
-    for num in b:
+    for num in m:
         if num<1 or num>10:
             print(0)
         else:
