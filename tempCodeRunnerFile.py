@@ -1,8 +1,6 @@
-def func(sum,i,n):
-#     if i > n:
-#         return
-#     sum += i
-#     print(sum)
-#     func(sum, i + 1, n)
+a = s[::-1]
 
-# func(0,1,4)
+# if s==a:
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")
