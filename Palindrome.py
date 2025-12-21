@@ -13,7 +13,7 @@ else:
 
 n = len(s)
 left = 0
-right = n-1
+right = n-1   
 
 while(left<right):
     if s[left]!=s[right]:
@@ -24,4 +24,13 @@ while(left<right):
 else:
     print("Palindrome")
 
-# Using Recursion   
+# Using Recursion  
+
+def func(s,left,right):
+    if left>=right:
+        return True
+    if s[left]!=s[right]:
+        return False
+    return func(s,left+1,right-1)
+
+func(s,0,n-1)
