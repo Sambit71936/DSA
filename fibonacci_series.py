@@ -1,14 +1,11 @@
-def fib(n):
-    if n<=1:
-        return 1
-    return n+fib(n-1)
+n = int(input("Enter the number: "))
 
-print(fib(5))
-
-
-n = int(input())
-
-a, b = 0, 1
+a=0
+b=1
+if n<=0:
+    print(n)
 for i in range(n+1):
     print(a)
-    a, b = b, a + b
+    temp =a
+    a=b
+    b=temp+b
