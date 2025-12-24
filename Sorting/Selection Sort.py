@@ -12,3 +12,5 @@ def selection_sort(num):
     return num
 
 print(selection_sort(num))
+
+# Time Complexity: O(n^2)

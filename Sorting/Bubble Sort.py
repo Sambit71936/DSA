@@ -10,3 +10,5 @@ def bubble_sort(arr):
 
 
 print(bubble_sort(arr))
+
+# Time Complexity: O(n^2)

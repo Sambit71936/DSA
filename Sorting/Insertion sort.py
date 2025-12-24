@@ -9,3 +9,6 @@ for i in range(1,n):
         j-=1
     arr[j+1]=key
     print(arr)
+
+
+# Time Complexity: O(n^2)
