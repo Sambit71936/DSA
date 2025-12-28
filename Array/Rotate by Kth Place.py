@@ -9,3 +9,17 @@ for _ in range(0, rotation):
     e = nums.pop()
     nums.insert(0, e)
 print(nums)
+
+
+# Time Complexity: O(n)
+
+
+#Through Slicing
+
+arr = [3,6,8,9,2,6,9,1,4]
+
+arr[:] = arr[n-k:] + arr[:n-k]
+
+print(arr)
+
+# Time Complexity: O(n)
