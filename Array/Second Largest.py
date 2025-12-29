@@ -10,4 +10,4 @@ for i in range(0,len(arr)):
             second = arr[i]
 print(second)
 
-# Time Complexity: O(n)
+# Time Complexity: O(n)    
