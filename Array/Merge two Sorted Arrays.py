@@ -25,5 +25,7 @@ while j<m:
         result.append(nums2[j])
     j+=1
 
-    
+
 print(result)
+
+# Time Complexity: O(n+m)
